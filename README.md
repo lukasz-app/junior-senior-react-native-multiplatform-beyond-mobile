@@ -15,9 +15,9 @@ Repozytorium podzielone jest na 4 oddzielne moduły, każdy z nich to oddzielny 
 - Dzielenie kodu między platformami:
     - Natywne moduły
     - JS build time
-    - JS compile time
+    - JS run time
 - wydajność, i jak ją poprawić wykorzystując natywność
-- Nieoczywiste wparcie dla TV i macos
+- wparcie dla android TV
 
 ### 2: Monorepo React Native + React.js - mobilny i webowy react dz
 - Współdzielenie logiki
@@ -30,10 +30,10 @@ Repozytorium podzielone jest na 4 oddzielne moduły, każdy z nich to oddzielny 
     - react-native-macos
     - react-native-tvos
     - react-native-web 
-- wady / zalety / konsekwencje 
+    - react-native-yourPlatformHere
+- zalety / wady / konsekwencje 
 
 ### 4: Monorepo React Native Web
 - Współdzielenie komponentów
 - Buld-time vs. Compile-time i implikacje
 - W dalszym ciągu możliwość wykorzystanie electrona
-- implementacja map dla mobile + web
